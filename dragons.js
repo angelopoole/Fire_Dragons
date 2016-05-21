@@ -14,8 +14,14 @@ $(document).ready(function() {
         count1++
         $("#number1").text(count1)
     })
+   
+   $("button").click(function() {
+       var post = $("input").val();
+       $("#chat").prepend("<li> " + post + "</li>")
+       console.log(post);
+   })
     
-})
+});
 
 
 
