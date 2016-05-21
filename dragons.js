@@ -15,14 +15,20 @@ $(document).ready(function() {
         $("#number1").text(count1)
     })
     
-  
-$("input").keyup(function) {
-    var value = $(this).val();
-    $("ul").text(value):
-}
+})
 
 
-});
+
+
+// $("input").keyup(function(e) {
+//     var value = $(this).val();
+//     if(e.keyUp ==13) {
+        
+//     }
+//     $("ul").text("<li>" + value + "</li>"):
+
+
+
 
 
 

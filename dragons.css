@@ -36,18 +36,22 @@ h1 {
 
 
 #navigation_paragraph{
-margin-left:5%;
+
+    margin-left: 50%;
+    margin-right: 50%;
+    
 }
 nav {
     
     display: block;
     border-radius: 12px;
-
-    margin-left: auto;
-    margin-right: auto;}
+    margin-left:25%;
+    
+}
 
 #nav_1{
- padding:25px;   
+ padding-left:25px;   
+ padding-right:25px;   
 }
 
 #nav_2{
@@ -60,12 +64,9 @@ nav {
 }
 #nav_1_pic{
  padding:25px;   
-border-radius:12px;
 }
 #nav_2_pic{
  padding:25px;   
-
-border-radius:12px;
 }
 #nav_3_pic{
  padding:25px;   
@@ -93,9 +94,9 @@ td {
 
 body {
     background-image: url(https://static.pexels.com/photos/2773/city-skyline-skyscrapers-top.jpg);
-text-align:350%;
-background-size: 350%;
-    
+text-align:200%;
+background-size: 200%;
+
 }
 
 
