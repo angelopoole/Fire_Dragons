@@ -2,6 +2,7 @@
 $(document).ready(function() {
     console.log( "ready!" );
     var count = 0;
+    var count1 = 0;
 
   $("#like").on('click', function(){
     count++
@@ -10,8 +11,8 @@ $(document).ready(function() {
     
         
     $("#dislike").on('click', function() {
-        count=count-1
-        $("#number").text(count)
+        count1++
+        $("#number1").text(count1)
     })
     
     

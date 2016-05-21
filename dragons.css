@@ -18,16 +18,20 @@
 #image {
     height: 200px;
     width: 150px;
-    background-color: blue;
+    
 }
 #cover{
     width:100%;
     height: 100%;
 }
 
-#like : hover {
-    background-color: blue;
+#like{
 }
-.ul{
+#navigation_paragraph{
+margin-left:50%;
+}
 
+#mannequin {
+    width: 350px;
+    height:400px;
 }
