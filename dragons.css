@@ -1,13 +1,18 @@
 .clothes{
+    float: right;
     height: 150px;
     width: 150px;
     margin: 10px;
     border: 1px solid black;
+    display: inline-block;
+    text-align: center;
 }
 
 
 .box1 {
-    background-color: blue;
+    background-color: pink;
+    width: 100px;
+    height: 100px;
 }
 
 #image {
@@ -18,4 +23,7 @@
 #cover{
     width:100%;
     height: 100%;
+}
+.ul{
+
 }
