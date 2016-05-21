@@ -15,5 +15,61 @@ $(document).ready(function() {
         $("#number1").text(count1)
     })
     
-    
+  
+$("input").keyup(function) {
+    var value = $(this).val();
+    $("ul").text(value):
+}
+
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// swiggity swagity whats in the baggity

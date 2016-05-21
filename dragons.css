@@ -1,11 +1,18 @@
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px #eee, 5px 5px 5px #000000;
+    font-size: 500%;
+}
 .clothes{
     float: right;
     height: 150px;
     width: 150px;
     margin: 10px;
-    border: 1px solid black;
+    border: 5px solid pink;
     display: inline-block;
     margin-right: auto;
+    border-radius: 12px;
 }
 
 
@@ -16,22 +23,149 @@
 }
 
 #image {
-    height: 200px;
-    width: 150px;
+    height:350px;
+    width: 170px;
+    border-radius: 12px;
     
 }
 #cover{
     width:100%;
     height: 100%;
+    border-radius: 12px;
 }
 
-#like{
-}
+
 #navigation_paragraph{
-margin-left:50%;
+margin-left:5%;
+}
+nav {
+    
+    display: block;
+    border-radius: 12px;
+
+    margin-left: auto;
+    margin-right: auto;}
+
+#nav_1{
+ padding:25px;   
 }
 
-#mannequin {
-    width: 350px;
-    height:400px;
+#nav_2{
+ padding:25px;   
+
 }
+
+#nav_3{
+ padding:25px;   
+}
+#nav_1_pic{
+ padding:25px;   
+border-radius:12px;
+}
+#nav_2_pic{
+ padding:25px;   
+
+border-radius:12px;
+}
+#nav_3_pic{
+ padding:25px;   
+
+    
+}
+#mannequin {
+    width: 550px;
+    height:600px;
+    border-radius: 5px;
+    border: 5px solid pink;
+}
+
+#suggestions {
+    background-color: pink;
+}
+
+.suggestions {
+    color: lavender;
+}
+
+td {
+    align="top";
+}
+
+body {
+    background-image: url(https://static.pexels.com/photos/2773/city-skyline-skyscrapers-top.jpg);
+text-align:350%;
+background-size: 350%;
+    
+}
+
+
+
+
+
+
+/* Slide Movement Code -Alex */
+
+#main-slider-space {
+	overflow:hidden;
+	width:600px;
+	height:300px;
+	background-color:#C36;
+	margin-left:50px;
+}
+
+.slider-wrapper {
+	position:relative;
+	left:0;
+	width:3000px;
+	height:100%;
+}
+
+.main-slide {
+	width:600px;
+	height:100%;
+	float:left;
+}
+
+#slide1 { background-color:#5FF; }
+#slide2 { background-color:#F5F; }
+#slide3 { background-color:#FF5; }
+
+.slider-buttons {
+    position:absolute;
+    width:30px;
+    height:30px;
+}
+
+.slider-buttons:hover { cursor:pointer; }
+
+#main-slider-next {
+    background-color:#99CC66;
+    left:660px;
+    top:150px;
+}
+
+#main-slider-previous {
+    background-color:#99CC66;
+    left:25px;
+    top:150px;
+}
+
+/* ENd of Code for clothes */
+
+
+
+
+th {
+    font-size: 24px;
+    color: pink;
+    text-align: center;
+}
+
+form {
+    color: white;
+}
+
+h2 {
+    color:white;
+}
+
