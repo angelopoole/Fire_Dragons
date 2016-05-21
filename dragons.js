@@ -15,7 +15,7 @@ $(document).ready(function() {
         $("#number1").text(count1)
     })
    
-   $("#hack").click( function() {
+   $("#button").click(function() {
        var post = $("input").val();
        $(".chat").prepend("<div class=\"enter\">" + post + "</div>")
        console.log(post);

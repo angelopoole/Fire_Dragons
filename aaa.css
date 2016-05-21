@@ -1,18 +1,9 @@
-body{
-    background-image: url('https://newevolutiondesigns.com/images/freebies/city-wallpaper-5.jpg');
-}
-
-
-
-
 h1 {
-    color: pink;
+    color: white;
     text-align: center;
     text-shadow: 1px 1px 1px #eee, 5px 5px 5px #000000;
     font-size: 500%;
-    font-family: "Hanken",Sans-serif;
 }
-
 .clothes{
     float: right;
     height: 150px;
@@ -45,52 +36,59 @@ h1 {
 }
 
 
-#buttons {
-    display: initial;
+#navigation_paragraph{
+margin-left:47.5%;
+color:white;
 }
-#like{
-float:left;
-}
-#dislike{
-    float:left;
-}
-#navigation_paragraph {
-margin-left:48.5%;
-color:#484848 ;
-font-family: "Hanken",Sans-serif;
-}
-#navigation {
+nav {
     
     display: block;
     border-radius: 12px;
-    margin-left:29.5%;
+    margin-left:32.5%;
     
 }
 
 #nav_1{
-border: 10px solid;
-
+ padding-left:5px;   
+ padding-right:55px;   
+}
 
 #nav_2{
-border: 10px solid;
+
+ padding-left:5px;   
+ padding-right:55px;   
+
 }
 
 #nav_3{
- border: 10px solid;
+
+ padding-left:5px;   
+ padding-right:5px;   
 }
 #mannequin {
     width: 500px;
-    height:624px;
+    height:600px;
     border-radius: 5px;
     border: 5px solid pink;
 }
 
+#suggestions {
+    background-color: pink;
+}
+
 .suggestions {
-    color: pink;
+    color: lavender;
 }
 
 td {
     align="top";
+}
+
+body {
+    background-image: url(https://static.pexels.com/photos/2773/city-skyline-skyscrapers-top.jpg);
+text-align:200%;
+background-size: 100%;
+
 }
 
 
@@ -134,13 +132,13 @@ td {
 .slider-buttons:hover { cursor:pointer; }
 
 #main-slider-next {
-    background-color:#D8D8D8;
+    background-color:#99CC66;
     left:660px;
     top:150px;
 }
 
 #main-slider-previous {
-    background-color:#D8D8D8;
+    background-color:#99CC66;
     left:25px;
     top:150px;
 }
@@ -152,45 +150,25 @@ td {
 
 th {
     font-size: 24px;
-    color: pink ;
+    color: pink;
     text-align: center;
-    font-family: "Hanken",Sans-serif;
 }
 
 form {
-    color:#484848;
+    color: white;
 }
 
+h2 {
+    color:white;
+}
 
-#description{
-    border-radius:5px;
-    background-color:white;
-    border: 50px black;
-    width: 430px;
-    padding:20px;
-    font-family: Hanken Sans-serif;
+div{
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #ff0000 #0000ff;
+     width: 300px;
+    padding: 20px;
+    border: 20px;
+    margin: 25px;
     
-}
-.suggestion {
-    background-color: white;
-    border: 24px solid pink;
-}
-
-#button {
-    padding: 2px;
-    width: 537px;
-    height: 50px;
-    border: 2px solid;
-    border-radius: 15px;
-    background-color:#pink;
-}
-
-input {
-    width: 537px;
-    height: 40px;
-    border: 2px solid pink;
-}
-
-#button {
-    width: 537px;
 }
