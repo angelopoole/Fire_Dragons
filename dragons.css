@@ -79,7 +79,7 @@ border: 10px solid;
  border: 10px solid;
 }
 #mannequin {
-    width: 500px;
+    width: 350px;
     height:624px;
     border-radius: 5px;
     border: 5px solid pink;
@@ -151,8 +151,8 @@ td {
 
 
 th {
-    font-size: 24px;
-    color: pink ;
+    font-size: 50px;
+    background-color: pink ;
     text-align: center;
     font-family: "Hanken",Sans-serif;
 }

@@ -34,6 +34,12 @@ $(document).ready(function() {
 //     $("ul").text("<li>" + value + "</li>"):
 
 
+$(document).ready(function() {
+        $('img#').click(function() {
+            window.location.href = this.id + '.html';
+        });
+    });
+
 
 
 
