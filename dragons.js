@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-    console.log( "ready!" );
+    console.log('test')
     var count = 0;
     var count1 = 0;
 
@@ -15,9 +15,9 @@ $(document).ready(function() {
         $("#number1").text(count1)
     })
    
-   $("button").click(function() {
+   $("#hack").click( function() {
        var post = $("input").val();
-       $("#chat").prepend("<li> " + post + "</li>")
+       $(".chat").prepend("<div class=\"enter\">" + post + "</div>")
        console.log(post);
    })
     

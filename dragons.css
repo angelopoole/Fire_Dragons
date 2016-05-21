@@ -3,7 +3,9 @@ h1 {
     text-align: center;
     text-shadow: 1px 1px 1px #eee, 5px 5px 5px #000000;
     font-size: 500%;
+    font-family: "Hanken",Sans-serif;
 }
+
 .clothes{
     float: right;
     height: 150px;
@@ -36,44 +38,44 @@ h1 {
 }
 
 
-#navigation_paragraph{
-margin-left:47.5%;
-color:white;
+#buttons {
+    display: initial;
 }
-nav {
+#like{
+float:left;
+}
+#dislike{
+    float:left;
+}
+#navigation_paragraph {
+margin-left:48.5%;
+color:#484848 ;
+font-family: "Hanken",Sans-serif;
+}
+#navigation {
     
     display: block;
     border-radius: 12px;
-    margin-left:32.5%;
+    margin-left:29.5%;
     
 }
 
-#nav_1{
- padding-left:5px;   
- padding-right:55px;   
+#nav_1_pic{
+border: 10px solid pink;
+
+
+#nav_2_pic{
+border: 10px solid pink;
 }
 
-#nav_2{
-
- padding-left:5px;   
- padding-right:55px;   
-
-}
-
-#nav_3{
-
- padding-left:5px;   
- padding-right:5px;   
+#nav_3_pic{
+ border: 10px solid pink;
 }
 #mannequin {
     width: 500px;
-    height:600px;
+    height:624px;
     border-radius: 5px;
     border: 5px solid pink;
-}
-
-#suggestions {
-    background-color: pink;
 }
 
 .suggestions {
@@ -85,10 +87,9 @@ td {
 }
 
 body {
-    background-image: url(https://static.pexels.com/photos/2773/city-skyline-skyscrapers-top.jpg);
-text-align:200%;
-background-size: 100%;
-
+background-image: url("https://www.porternovelli.com/wp-content/uploads/2015/07/NewYork_shutterstock_RF_237303676.jpg");
+text-align:300%;
+background-size: 400%;
 }
 
 
@@ -132,13 +133,13 @@ background-size: 100%;
 .slider-buttons:hover { cursor:pointer; }
 
 #main-slider-next {
-    background-color:#99CC66;
+    background-color:#D8D8D8;
     left:660px;
     top:150px;
 }
 
 #main-slider-previous {
-    background-color:#99CC66;
+    background-color:#D8D8D8;
     left:25px;
     top:150px;
 }
@@ -150,25 +151,41 @@ background-size: 100%;
 
 th {
     font-size: 24px;
-    color: pink;
+    color:#484848 ;
     text-align: center;
+    font-family: "Hanken",Sans-serif;
 }
 
 form {
-    color: white;
+    color:#484848;
 }
 
-h2 {
-    color:white;
-}
 
-div{
-    border-radius: 12px;
-    border-style: solid;
-    border-color: #ff0000 #0000ff;
-     width: 300px;
-    padding: 20px;
-    border: 20px;
-    margin: 25px;
+#description{
+    border-radius:5px;
+    background-color:white;
+    border: 50px black;
+    width: 430px;
+    padding:20px;
+    font-family: Hanken Sans-serif;
     
 }
+.suggestion {
+    background-color: white;
+}
+
+.post-m {
+    padding: 2px;
+    width: 537px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color:#484848;
+}
+
+input {
+    width: 537px;
+    height: 40px;
+    border: 2px solid pink;
+}
+
