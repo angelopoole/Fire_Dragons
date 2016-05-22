@@ -1,5 +1,6 @@
 body{
-    background-image: url('https://newevolutiondesigns.com/images/freebies/city-wallpaper-5.jpg');
+    background-image: url('http://www.twitrcovers.com/wp-content/uploads/2012/11/New-York-Buildings-l.jpg');
+    width: 100%;
 }
 
 
@@ -67,16 +68,16 @@ font-family: "Hanken",Sans-serif;
     
 }
 
-#nav_1{
+#nav_1_pic{
 border: 10px solid;
 
 
-#nav_2{
+#nav_2_pic{
 border: 10px solid;
 }
 
-#nav_3{
- border: 10px solid;
+#nav_3_pic{
+border: 10px solid;
 }
 #mannequin {
     width: 350px;
@@ -150,9 +151,9 @@ td {
 
 
 
-th {
-    font-size: 50px;
-    background-color: pink ;
+tr {
+    font-size: 500px;
+    color:white;
     text-align: center;
     font-family: "Hanken",Sans-serif;
 }
@@ -193,4 +194,9 @@ input {
 
 #button {
     width: 537px;
+}
+
+.row {
+    text-size: 30px;
+    background-color: pink;
 }
